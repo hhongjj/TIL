@@ -29,27 +29,11 @@ requests = requests.get('주소').status_code #'주소'에 요청 보내서, 정
 ```python
 from bs4 import BeautifulSoup
 
-html = BeautifulSoup(response)
+html = BeautifulSoup(response,'html.parsing')
 data = html.select('selector')      # 문서 안에 있는 특정 내용을 뽑아줘(select)
 data = html.select_one('selector')  # 문서 안에 있는 특정 내용을 하나만 뽑아줘(select_one)
 ```
 
-import requests
-
-1) requests.get(주소)   -> 응답으로 무엇인가 옴
-
-2) requests.get(주소).Text
 
 
 
-beautifulsoup4  -- html 문서를 parsing
-
-F12 단축ㄱ키
-
-
-
-
-
-다 지우기 clear or ctrl+l
-
-저장 ctrl +S

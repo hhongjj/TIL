@@ -27,7 +27,7 @@
 
 ------
 
-#### add
+### add
 
 > staging area / INDEX
 
@@ -42,7 +42,7 @@ $ git add my_folder/      # 특정 폴더
 - 커밋을 위한 파일 및 폴더들을 추가하는 명령어
 - 모든 정보는 `git status ` 에 있다.
 
-#### commit
+### commit
 
 ```python
 $ git commit -m "first commit"      # 커밋할 때 메세지 남기기 
@@ -50,7 +50,7 @@ $ git log                           # 커밋 목록 확인
 $ git log --oneline                 # 커밋 목록 한 줄로 확인
 ```
 
-#### status
+### status
 
 -  working directory, staging area 공간의 파일 상태를 확인할 수 있다. 
 
@@ -58,11 +58,11 @@ $ git log --oneline                 # 커밋 목록 한 줄로 확인
 $ git status
 ```
 
-#### git show
+### git show
 
 - 현재 커밋의 변경 기록 확인하기
 
-#### git diff 커밋아이디1 커밋아이디2
+### git diff 커밋아이디1 커밋아이디2
 
 - 커밋들 사이에 변경 사항을 확인할 수 있음
 
@@ -70,9 +70,7 @@ $ git status
 # git diff 9b15 539d
 ```
 
-
-
-#### gitignore
+### gitignore
 
 > git으로 관리하고 싶지 않은 파일들의 리스트를 작성하여, 특정 파일들을 git이 버전 관리를 하지 않도록 하는 것
 

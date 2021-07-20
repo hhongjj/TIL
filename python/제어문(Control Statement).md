@@ -138,3 +138,6 @@ for char in chars:
 
 
 
+### enumerate(lterable, start=0)
+
+- 열거 객체를 돌려준다. iterable은 시퀀스, 이터레이터 또는 이터레이션을 지원하는 다른객체

@@ -140,4 +140,13 @@ for char in chars:
 
 ### enumerate(lterable, start=0)
 
-- 열거 객체를 돌려준다. iterable은 시퀀스, 이터레이터 또는 이터레이션을 지원하는 다른객체
+- (*index*, *value*) 형태의 tuple 로 구성된 열거 객체를 반환
+- start=1 해주면 *index*를 1부터 시작할 수 있음.
+
+```python
+members = ['민수', '영희', '철수']
+list(enumerate(members, start = 1))
+
+#[(0, '민수'), (2, '영희'), (3, '철수')]
+```
+

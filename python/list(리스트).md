@@ -2,49 +2,49 @@
 
 > a =[ ]
 
-- list 원소 추가
+- 순서가 있는 시퀀스, 인덱스로 접근
+- 리스트의 특징
+  - 변경 가능하고(mutable)
+  - 순서가 있고(ordered)
+  - 순회 가능한(iterable)
 
-  - `.append(값)` : 값을 원소 마지막에 추가
+### 값 추가 및 삭제
 
-  ```python
-  >>> a = [1,2,3]
-  >>> a.append(4)         
-  >>>a
-  [1,2,3,4]
-  ```
+#### .append(x)
 
-  - `.insert(index,값)` : 리스트의 index에 값 추가 
+- 리스트에 값을 추가함
 
-  ```python
-  >>> a = [1,2,3]
-  >>> a.insert(1,4)
-  >>> a
-  [1,4,2,3]
-  ```
+```python
+>>> a = [1,2,3]
+>>> a.append(4)         
+>>>a
+[1,2,3,4]
+```
 
-  - `+`  연산자로 더하기 가능
+#### .insert(i, x)
 
-  ```python
-  >>> a = [1,3,5] 
-  >>> b = [2,4,6]
-  >>> c = a + b            
-  >>> c
-  [1,3,5,2,4,6]
-  >>> c += [7,8]
-  >>> c
-  [1,3,5,2,4,6,7,8]
-  ```
+- 정해진 위치 i 에 값을 추가함
 
-  - `.extend(추가할 리스트)` : 리스트 추가
+```python
+cafe = ['starbucks','tomntoms','hollys']
+cafe.insert(0, 'start')
+print(cafe)
+# ['start','starbucks','tomntoms','hollys']
+```
 
-  ```python
-  >>> a = [1,2,3]
-  >>> a.extend([4,5,6])
-  >>> a
-  [1,2,3,4,5,6]
-  ```
+#### .extend(*iterable*)
 
+- 리스트에 iterable의 항목을 추가함 ( `+`연산자와 동일)
 
+```python
+a = ['starbucks','tomntoms','hollys']
+a.extend(['coffee'])
+print(a)
+# ['starbucks','tomntoms','hollys','coffee']
+a.extend('cafe')
+print(a)
+# ['starbucks','tomntoms','hollys','coffee','c','a','f','e']
+```
 
 - list 원소 삭제
 

@@ -7,6 +7,7 @@
   - 변경 가능하고(mutable)
   - 순서가 있고(ordered)
   - 순회 가능한(iterable)
+  - 
 
 ### 값 추가 및 삭제
 

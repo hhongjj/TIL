@@ -83,7 +83,7 @@
 
 ### 시맨틱 태그
 
-- HTML5에서 의미론적 요소를 담은 태그의 등장. div(x)
+- HTML5에서 의미론적 요소를 담은 태그의 등장. ~~div~~
 - 대표적인 태그들
   - header : 문서 전체나 섹션의 헤더(머릿말 부분)
   - nav : 네비게이션
@@ -185,9 +185,9 @@
 
 - 내부와 외부 차이
 
-|                내부                 |                외부                 |
-| :---------------------------------: | :---------------------------------: |
-| ![](image.assets/내부의 불편함.jpg) | ![](image.assets/외부가 좋은점.jpg) |
+|                       내부                       |                       외부                       |
+| :----------------------------------------------: | :----------------------------------------------: |
+| ![내부의 불편함](image.assets/내부의 불편함.jpg) | ![외부가 좋은점](image.assets/외부가 좋은점.jpg) |
 
 
 
@@ -251,7 +251,7 @@
     >
     > position 관련 요소(position, top/right/bottom/left, z-index) 등
 
->  [상속 - CSS: Cascading Style Sheets | MDN (mozilla.org)](https://developer.mozilla.org/ko/docs/Web/CSS/inheritance)
+[MDN 상속]: 상속-CSS:CascadingStyleSheets|MDN(mozilla.org)(https://developer.mozilla.org/ko/docs/Web/CSS/inheritance)
 
 
 
@@ -338,9 +338,9 @@
 - 인접 형제 결합자
   - selectorA의 형제 요소 중 바로 뒤에 위치하는 selectorB 요소를 선택
 
-|           자손 결합자            |            자식 결합자            |
-| :------------------------------: | :-------------------------------: |
-| ![](image.assets/자손결합자.jpg) | ![](image.assets/자식 결합자.jpg) |
+|           자손 결합자            |                 자식 결합자                  |
+| :------------------------------: | :------------------------------------------: |
+| ![](image.assets/자손결합자.jpg) | ![자식 결합자](image.assets/자식 결합자.jpg) |
 
 |           일반 형제 결합자            |           인접 형제 결합자           |
 | :-----------------------------------: | :----------------------------------: |
@@ -372,9 +372,9 @@
 | :-----------------------------------: |
 | ![](image.assets/marin shorthand.jpg) |
 
-|            border shorthand             |
-| :-------------------------------------: |
-| ![](image.assets/border shorthand.jpg)* |
+|                    border shorthand                    |
+| :----------------------------------------------------: |
+| ![border shorthand](image.assets/border shorthand.jpg) |
 
 ### box-sizing
 

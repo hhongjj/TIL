@@ -115,7 +115,7 @@
 
 ### 그룹 컨텐츠
 
-- <p>, <hr>, <ol>, <ul>, <pre>, <blockquote>, <div>
+- < p >,  < hr > , < ol >, < ul >, < pre > , < blockquote > , < div >
 
 ### 텍스트 관련 요소
 
